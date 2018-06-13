@@ -1,5 +1,6 @@
 import Vue from 'vue'
-import App from './App'
+import App from './App'//app组件
+import Layout from './components/layout'//公共组件
 import router from './router'
 
 Vue.config.productionTip = false
@@ -8,5 +9,8 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
-  render: h => h(App)
+  // template: '<Layout/>',
+  // components: { Layout }
+  render: h => h(Layout)
+
 })
