@@ -25,6 +25,8 @@
 			</div>
 		</div>
 		<div class="index-right">
+			<!-- 轮播图组件 -->
+			
 			<div class="index-board-list">
 				<div class="index-board-item" v-for="(item,index) in boardList" :class="[{'line-last' : index % 2 !== 0}, 'index-board-' + item.id]">
 					<div class="index-board-item-inner">

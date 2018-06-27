@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App'//app组件
-import Layout from './components/layout'//公共组件
+import Layout from './components/layout'//公共模板组件
 import router from './router'
 
 
