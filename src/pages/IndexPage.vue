@@ -41,13 +41,14 @@
 </template>
 <script>
 	export default{
-		// created: function(){
-		// 	this.$http.get('api/getNewsList').then((res)=>{
-		// 		this.newsList = res.data
-		// 	},(err)=>{
-		// 		console.log(err)
-		// 	})
-		// },
+		created: function(){
+			this.$http.get('api/getNewsList').then((res)=>{
+				this.newsList = res.data
+				console.log(res.data)
+			},(err)=>{
+				console.log(err)
+			})
+		},
 		data(){
 			return {
 				boardList: [
