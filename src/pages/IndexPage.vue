@@ -44,7 +44,7 @@
 <script>
 	export default{
 		created: function(){
-			this.$http.get('api/getNewsList').then((res)=>{
+			this.$http.get('../../db.json').then((res)=>{
 				this.newsList = res.data
 				console.log(res.data)
 			},(err)=>{

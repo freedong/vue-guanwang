@@ -4,11 +4,11 @@
 		<div class="slide-img">
 			<a href="">
 				<!-- 新图片 vue过渡&动画组件transition -->
-				<transition>
+				<transition name="">
 					<img v-if="isShow" :src="">
 				</transition>
 				<!-- 老图片 -->
-				<transition>
+				<transition name="">
 					<img v-if="" :src="">
 				</transition>
 			</a>
